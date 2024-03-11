@@ -9,7 +9,7 @@
 <body>
     <?php 
     echo 
-    "<table border='1' class=''>
+    "<table border='1'>
         <tr>
             <td>MENOR QUE 18,5</td>
             <td>MAGREZA</td>
