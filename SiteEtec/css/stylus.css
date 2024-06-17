@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+div {
+    margin-top: 1%;
+}
+.mensagem{
+    width: 300px;
+    height: 150px;
+}
+.centro{
+  position: absolute;
+  top: 30%;
+  width: 99%;
+}

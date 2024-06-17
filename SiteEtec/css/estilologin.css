@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2020/10/etec-guaianazes-scaled.jpg');
+    background-repeat: no-repeat;
+    height:500px;
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    color: white;
+    position: absolute;
+    margin-left: 37.5%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    width: 20%;
+}
+fieldset{
+    border: 3px solid rgb(255, 124, 124);
+}
+legend{
+    border: 1px solid rgb(250, 226, 161);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(112, 141, 236);
+    border-radius: 8px;
+}
+.inputBox{
+    position: relative;
+    
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(209, 89, 10);
+}
+
+#submit{
+    background-color: rgb(112, 141, 236);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
